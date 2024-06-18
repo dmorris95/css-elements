@@ -1,0 +1,79 @@
+.link {
+    background-color: bisque;
+    width: 75px;
+    padding: 15px 15px ;
+    margin: 10px;
+    border-radius: 75px;
+}
+
+.link:hover {
+    background-color: cornflowerblue;
+}
+div > a:hover {
+    color: ivory;
+}
+
+img {
+    border-radius: 175px;
+}
+
+section > img:hover {
+    width: 250px;
+    height: 250px;
+    border: 5px red solid;
+    border-radius: 100px;
+}
+
+section > button {
+    padding: 15px;
+    margin-right: 25px;
+    background-color: lavender;
+    border-radius: 50px;
+}
+
+.booking:hover {
+    background-color: seagreen;
+    color: ivory;
+}
+
+#AirBNB:hover {
+    border: red;
+    background-color: coral;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid slategrey;
+    border-radius: 4px;
+}
+
+#submit {
+    width: 75px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: azure;
+    transition: background-color 0.5s;
+}
+
+input[type="text"]:focus, textarea:focus {
+    background-color: gainsboro;
+}
+
+label {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+}
+
+#submit:hover {
+    background-color: dimgray;
+    color: ivory;
+}
+
+#rating {
+    height: 13px;
+    border-radius: 5px;
+}
+

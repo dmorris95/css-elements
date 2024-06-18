@@ -1,0 +1,84 @@
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid slategrey;
+    border-radius: 4px;
+}
+
+.input:hover {
+    background-color: lemonchiffon;
+}
+
+label {
+    font-family: 'Arial', sans-serifS;
+}
+
+.submit {
+    width: 75px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: azure;
+    transition: background-color 0.5s;
+}
+
+.submit:hover {
+    background-color: slategrey;
+    color: ivory;
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+ul {
+    list-style-type: square;
+    display: flex;
+}
+
+li {
+    padding: 5px;
+    margin: 15px;
+    font-size: 18px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+li:hover {
+    text-decoration: underline;
+    background-color: deepskyblue;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: dimgray;
+    color: white;
+    font-size: 20px;
+}
+tr:nth-child(odd) {
+    background-color: #ccd;
+}
+tr:hover {
+    background-color: #bbd;
+}
